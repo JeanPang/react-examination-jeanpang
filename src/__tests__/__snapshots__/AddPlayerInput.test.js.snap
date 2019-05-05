@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddPlayerInput renders correctly 1`] = `
+<form
+  className="formAddPlayerInput"
+  onSubmit={[Function]}
+>
+  <input
+    autoFocus={true}
+    className="form_control"
+    name="name"
+    onChange={[Function]}
+    placeholder=" Type the name of a player "
+    type="text"
+    value=""
+  />
+  <select
+    className="btn_select"
+    name="position"
+    onChange={[Function]}
+    value="SF"
+  >
+    　
+    <option
+      value="SF"
+    >
+      SF
+    </option>
+    　
+    <option
+      value="PG"
+    >
+      PG
+    </option>
+  </select>
+  <input
+    className="btn_add"
+    type="submit"
+    value="add"
+  />
+</form>
+`;

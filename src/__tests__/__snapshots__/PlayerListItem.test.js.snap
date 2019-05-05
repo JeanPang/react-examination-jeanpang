@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayerListItem renders correctly 1`] = `
+<li
+  className="player_list_item"
+>
+  <div
+    className="playerInfos"
+  >
+    <div
+      className="playerInfos_name"
+    >
+      <span />
+    </div>
+    <div>
+      <small>
+         · 
+      </small>
+    </div>
+  </div>
+  <div
+    className="playerActions"
+  >
+    <button
+      className="btn btn-default btnAction"
+      onClick={[Function]}
+    >
+      <i
+        className="fa fa-star-o"
+      />
+    </button>
+    <button
+      className="btn btn-default btnAction"
+      onClick={[Function]}
+    >
+      <i
+        className="fa fa-trash"
+      />
+    </button>
+  </div>
+</li>
+`;

@@ -1,0 +1,42 @@
+.player_list_item {
+  list-style: none;
+  padding: 20px 10px 20px 20px;
+  background-color: white;
+  border-bottom: 1px solid #e3e3e3;
+  display: flex;
+}
+
+.playerInfos {
+  flex: 1 0 auto;
+}
+
+.playerInfos_name {
+  width: 400px;
+}
+.playerInfos_name > span {
+  word-break: break-all;
+}
+
+.playerInfos span {
+  font-weight: bold;
+}
+
+.playerActions {
+  flex: 0 0 90px;
+}
+
+.btnAction,
+.btnAction:active,
+.btnAction:focus,
+.btnAction:hover {
+  margin-right: 5px;
+  color: #5c75b0;
+}
+
+button:focus {
+  outline: 0 !important;
+}
+
+.btn-default.focus, .btn-default:focus {
+  background-color: rgba(0,0,0,0) !important;
+}
