@@ -1,4 +1,4 @@
-# react-examination
+# react-examination-jeanpang
 
 Building a user friendly interface with React.js, Redux/Mobx and LESS/SCSS.
 
